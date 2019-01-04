@@ -23,7 +23,7 @@ USD;XPF;100.714<br />
 GBP;XPF;135.704<br />
 XPF;CHF;0.00960574<br />
 
-
+<br />
 Après avoir exécuté, le programme affiche le montant dans la devise de destination, arrondi à deux chiffres après la virgule.
 
 Vous pouvez consulter le fichier "test technique -backend-opengst.pdf" si vous voulez plus d'informations.
