@@ -3,25 +3,25 @@ Il s'agit d'un programme Python permettant de convertir automatiquement des mont
 
 Le programme doit être exécuté avec comme seul argument un chemin vers un fichier contenant les données d’initialisation défini comme suit.
 
-La première ligne contient :
-• La devise source DS
-• Le montant source MS
-• La devise de destination DD
-Ces informations sont stockées au format DS;MS;DD.
+La première ligne contient :<br />
+• La devise source DS<br />
+• Le montant source MS<br />
+• La devise de destination DD<br />
+Ces informations sont stockées au format DS;MS;DD.<br />
 
-Les lignes suivantes contiennent des taux de change au format :
-• La devise source TDS
-• La devise de destination TDD
-• Le taux de change au format décimal TC
+Les lignes suivantes contiennent des taux de change au format :<br />
+• La devise source TDS<br />
+• La devise de destination TDD<br />
+• Le taux de change au format décimal TC<br />
 Ces informations sont stockées au format TDS;TDD;TC.
 
-Exemple :
-EUR;20;USD
-EUR;CHF;1.14651
-USD;GBP;0.742190
-USD;XPF;100.714
-GBP;XPF;135.704
-XPF;CHF;0.00960574
+Exemple :<br />
+EUR;20;USD<br />
+EUR;CHF;1.14651<br />
+USD;GBP;0.742190<br />
+USD;XPF;100.714<br />
+GBP;XPF;135.704<br />
+XPF;CHF;0.00960574<br />
 
 
 Après avoir exécuté, le programme affiche le montant dans la devise de destination, arrondi à deux chiffres après la virgule.
